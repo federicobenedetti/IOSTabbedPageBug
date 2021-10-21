@@ -33,11 +33,11 @@
     <FlyoutItem
         Title="Test Page"
         FlyoutDisplayOptions="AsSingleItem"
-        Route="LoginPage"
+        Route="StartPage"
         Shell.TabBarIsVisible="True">
         <FlyoutItem.Icon>
             <FontImageSource Glyph="icon_about.png" />
         </FlyoutItem.Icon>
-        <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent ContentTemplate="{DataTemplate local:StartPage}" />
     </FlyoutItem>
 </Shell>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="IOSTabbedPageBug.Views.LoginPage"
+    x:Class="IOSTabbedPageBug.Views.StartPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -11,7 +11,7 @@
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
             <Button
                 Command="{Binding GoToTabCommand}"
-                Text="Login"
+                Text="Go to Tabpage"
                 VerticalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>

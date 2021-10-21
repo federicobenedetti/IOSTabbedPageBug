@@ -1,7 +1,4 @@
-﻿using IOSTabbedPageBug.ViewModels;
-using IOSTabbedPageBug.Views;
-using System;
-using System.Collections.Generic;
+﻿using IOSTabbedPageBug.Views;
 using Xamarin.Forms;
 
 namespace IOSTabbedPageBug
@@ -11,8 +8,6 @@ namespace IOSTabbedPageBug
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
             Routing.RegisterRoute(nameof(TabbedExample), typeof(TabbedExample));
         }
 
