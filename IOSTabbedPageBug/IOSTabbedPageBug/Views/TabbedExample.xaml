@@ -4,18 +4,23 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     BackgroundColor="White">
-    <ContentPage Title="Tab 1" BackgroundColor="Red">
-        <StackLayout
-            HorizontalOptions="FillAndExpand"
-            Orientation="Vertical"
-            VerticalOptions="FillAndExpand">
+    <ContentPage Title="Tab 1">
+        <StackLayout BackgroundColor="Red" Orientation="Vertical">
             <Label
-                Padding="10"
-                HorizontalOptions="CenterAndExpand"
                 Text="The content will move UP"
                 TextColor="White"
-                VerticalOptions="CenterAndExpand"
-                VerticalTextAlignment="Center" />
+                VerticalOptions="StartAndExpand" />
+
+            <Label
+                Text="The content will move UP 2"
+                TextColor="White"
+                VerticalOptions="StartAndExpand" />
+
+            <Label
+                Text="The content will move UP 3"
+                TextColor="White"
+                VerticalOptions="StartAndExpand" />
+
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Tab 2" />
